@@ -17,8 +17,8 @@ public class Main {
 
        System.out.println("\nMORTGAGE \n--------");
        double mortgage = mortgageCalculations(annualInterestRate, period, principal, r, numberOfPayments);
+       System.out.println("\nPAYMENT SCHEDULE\n-----------------");
        double mortgageSchedule = mortgagePayments(principal, r, numberOfPayments);
-       System.out.println("\nPAYMENT SCHEDULE\n-----------------\n");
     }
     public  static double readNumber(String prompt, double min, double max){
         Scanner scanner = new Scanner(System.in);
